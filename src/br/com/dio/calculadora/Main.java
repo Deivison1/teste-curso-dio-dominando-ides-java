@@ -39,6 +39,9 @@ public class Main {
      System.out.println(quantidadeProduto);
      System.out.println(NUMERO_TENTATIVAS);
      
+     
+     
+     
     
 }
 	
