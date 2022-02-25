@@ -32,13 +32,13 @@ public class Conversao {
 		 float f4 = 11.56676f;
 		 i4 = (int) f4;
 		 
-		 System.out.println(" :" + s1 );
-		 System.out.println(" :" + il );
-		 System.out.println(" :" + l2 );
-		 System.out.println(" :" + l3);
-		 System.out.println(" :" + d2 );
-		 System.out.println(" :" + f4 );
-		 System.out.println(" :" + d1 );
+		 System.out.println(" : " + s1 );
+		 System.out.println(" : " + il );
+		 System.out.println(" : " + l2 );
+		 System.out.println(" : " + l3);
+		 System.out.println(" : " + d2 );
+		 System.out.println(" : " + f4 );
+		 System.out.println(" : " + d1 );
 		 
 	}
 
