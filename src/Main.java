@@ -2,11 +2,12 @@ import br.com.dio.calculadora.Calculadora;
 import br.com.dio.calculadora.Calcular;
 import br.com.dio.calculadora.Emprestimo;
 import br.com.dio.calculadora.Mensagem;
+import br.com.dio.calculadora.Quadrilatero;
 
 public class Main {
 
 	public static void main(String[] args) {
-		
+	/*	
       //Calculadora
 		
 		System.out.println("Exercício claculadora");
@@ -33,7 +34,28 @@ public class Main {
 	    
 	    Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
         Emprestimo.calcular(1000, Emprestimo.getTresParcelas());
-        Emprestimo.calcular(1000, 5);
-}
+        Emprestimo.calcular(1000, 5); */
+        
+	
+        
+        System.out.println("");
+        
+        // Calcular a Área
+        
+        System.out.println("Exercicio quadrilatero");
+        System.out.println("");
+        
+        double areaQuadrado = Quadrilatero.area(3);
+        System.out.println("Área do quadrado: " + areaQuadrado);
 
-}
+	   
+	    double areaRetangulo = Quadrilatero.area(3, 5);
+        System.out.println("Área do Tetangulo: " + areaRetangulo);
+        
+        double areaLozangulo = Quadrilatero.area(3, 5, 5);
+        System.out.println("Área do Lozangulo: " + areaLozangulo);
+        }
+        
+   }
+        
+        
