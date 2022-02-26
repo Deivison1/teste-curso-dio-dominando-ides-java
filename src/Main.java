@@ -7,7 +7,7 @@ import br.com.dio.calculadora.Quadrilatero;
 public class Main {
 
 	public static void main(String[] args) {
-	/*	
+		
       //Calculadora
 		
 		System.out.println("Exercício claculadora");
@@ -34,7 +34,7 @@ public class Main {
 	    
 	    Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
         Emprestimo.calcular(1000, Emprestimo.getTresParcelas());
-        Emprestimo.calcular(1000, 5); */
+        Emprestimo.calcular(1000, 5);
         
 	
         
@@ -53,7 +53,7 @@ public class Main {
         System.out.println("Área do Tetangulo: " + areaRetangulo);
         
         double areaLozangulo = Quadrilatero.area(3, 5, 5);
-        System.out.println("Área do Lozangulo: " + areaLozangulo);
+        System.out.println("Área do Trapézio: " + areaLozangulo);
         }
         
    }
