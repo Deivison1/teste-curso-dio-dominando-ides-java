@@ -14,9 +14,11 @@ public class Ex_fatorial {
 		Scanner scan = new Scanner(System.in);
 		
 		int multiplicacao = 1;
+		int fatorial;
+		
 		
 		System.out.println("Fatorial: " );
-        int fatorial = scan.nextInt();
+        fatorial = scan.nextInt();
         
         
         System.out.print(fatorial + "! = ");
