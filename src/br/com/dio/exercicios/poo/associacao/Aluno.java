@@ -1,6 +1,5 @@
 package br.com.dio.exercicios.poo.associacao;
 
-public class Disciplina {
+public class Aluno {
 
-	Aluno aluno;
 }
