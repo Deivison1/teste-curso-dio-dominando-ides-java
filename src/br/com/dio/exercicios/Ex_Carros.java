@@ -10,13 +10,13 @@ public class Ex_Carros {
 		
 	}
     Ex_Carros(String cor, String modelo,
-	int capacidadeTanque){
+	double d){
 	    this.cor = cor;
 	    this.modelo = modelo;
-	    this.capacidadeTanque = capacidadeTanque;
+	    this.capacidadeTanque = (int) d;
 	}
 	
-	void  setCor(String cor) {
+    void  setCor(String cor) {
 		this.cor = cor;
 	}
 	String getCor() {
